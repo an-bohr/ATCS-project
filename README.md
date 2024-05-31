@@ -44,8 +44,7 @@ In an attempt to return results that are correct, we have also cleaned up the au
 This repo contains a **demo notebook** that contains an easy interface to further analyse the results from the paper. This notebook should be self-explanatory and instructions on how to use it are provided inside. 
 
 ## Running your own fine-tuning experiments
-To run your own experiments first fine-tune a model on a data source of choice, e.g. using the code provided by the <a href="https://github.com/huggingface/transformers/tree/master/examples/pytorch/language-modeling">Hugging Face library</a>. Code for running experiments on probing the language model for stereotypes can be found in the file <code>probe_mlm.py</code>. To retrieve emotion profiles see <code>compute_emotion_scores.py</code>. 
-
+To run your own experiments first fine-tune a model on a data source of choice, e.g. using the code provided by the <a href="https://github.com/huggingface/transformers/tree/master/examples/pytorch/language-modeling">Hugging Face library</a>. 
 
 ## Generating the outputs of the masked language models
 *All of the generated files have to be put in the <code>mlm_output/</code> folder, sometimes this has to be done manually, so it is best to check where the function stores them.*
@@ -53,6 +52,10 @@ To run your own experiments first fine-tune a model on a data source of choice, 
 At the beginning of <code>probe_mlm.py</code> and <code>compute_emotion_scores.py</code> add any target dictionaries you have created for any new language, eg: <code>from utils.target_dicts_fr import fr_target_dict</code> for French.\
 
 1. Run <code>get_pred_completion(dataset, model_name, save_name)</code> from the <code>probe_mlm.py</code> file. The dataset should be inputed as a string, eg: <code>'data_collection/stereo_dataset/adjective_data_fr.csv'</code>, the model name should be one of the following: <code>'bert-base-multilingual-uncased', 'xlm-roberta-base', 'xlm-roberta-large'</code>.
+2. Run <code>get_prior_probs(model_name, save_name, completion_dict)</code> from the <code>probe_mlm.py</code> file. The parameters should be the same as in the first step. <code>completion_dict</code> is the output file from step 1, eg: <code>'xlm-robert-base_fr.json'</code>.
+3. Run <code>reranking_with_prior_probs(model_name, save_name, completion_dict, prior_dict)</code> from the <code>probe_mlm.py</code> file. The <code>prio_dict</code> is the output file from step 2, eg: <code>xlm-roberta-large_fr_priors.json</code>
+4. Run the <code>get_topk_mlm_output</code> function from <code>compute_emotion_scores.py</code> file for each model three times with adequate parameters.
+5. Finally, use the <code>compute_emotion_scores</code> function to generate and save the emotion profile scores making sure to specify and verify the language requested.
 
 ## Citation
 ```bibtex

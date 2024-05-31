@@ -1,4 +1,4 @@
-from transformers import AutoModelForMaskedLM, AutoTokenizer, pipeline
+from transformers import AutoModelForMaskedLM, AutoTokenizer
 import torch
 import pandas as pd 
 import numpy as np
@@ -62,7 +62,7 @@ def get_topk_mlm_output(dicti, model_name, templates, country_templates, diri):
 def compute_emotion_scores(model_name, cat_of_interest,  savedir, name, language, lan_nrc):
 
     if path.isfile(savedir+'/'+cat_of_interest+'_'+model_name+'.json'):
-        #print('Retrieving existing data..')
+        print('Retrieving existing data..')
         dictionary = json.load(open(savedir+'/'+cat_of_interest+'_'+model_name+'.json',"r"))
         targets = []
         total = []
