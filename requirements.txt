@@ -1,0 +1,13 @@
+spacy==3.7.4
+scipy==1.7.3
+matplotlib==3.5.1
+fake_useragent==1.5.1
+seaborn==0.11.2
+transformers==4.0.1
+plotly==5.6.0
+torch==2.3.0
+NRCLex==3.0.0
+requests==2.27.1
+pandas==1.4.2
+wordcloud==1.8.1
+scikit_learn==1.0.2

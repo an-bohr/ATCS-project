@@ -1,0 +1,49 @@
+
+All the files generated have to be put in the mlm_output folder, sometimes this has to be done manually, so it is best to check the function where
+it will be stored.
+
+It is also important to add the line: from utils.target_dicts_fr import fr_target_dict for an new language both in the files probe_mlm.py and 
+compute_emotion_scores.py
+
+In compute_emotion_scores.py there also have to be added the templates for the new language at the end of the file 
+if one decides to run the functions directly from the file itself.
+
+
+
+First running the get_pred_completion(dataset, model_name, save_name) from the file probe_mlm.py
+Dataset is a string like: 'data_collection/stereo_dataset/adjective_data_fr.csv'
+model_name has to be from the list: ['bert-base-multilingual-uncased', 'xlm-roberta-base', 'xlm-roberta-large']
+save_name can be: ['bert-base-multilingual-uncased_fr', 'xlm-roberta-base_fr', 'xlm-roberta-large_fr']
+! This has to be ran for all three models
+
+
+Second step is to run the get_prior_probs(model_name, save_name, completion_dict) function form the file probe_mlm.py
+model_name and save_name are similar to the first step.
+completion_dict is the result file from step 1, so for example 'xlm-roberta-base_fr.json'
+! This has to be ran for all three models
+
+
+Third step is to run reranking_with_prior_probs(model_name, save_name, completion_dict, prior_dict) function from the file probe_mlm.py
+model_name, save_name, completion_dict are similar to step 1 and 2.
+prior_dict is the result file from step 2, so for example 'xlm-roberta-large_fr_priors.json'
+
+
+
+
+The next to step will be ran with functions from the file compute_emotion_scores.py
+
+get_topk_mlm_output(fr_target_dict, 'bert-base-multilingual-uncased', fr_templates, fr_country_templates, '')
+get_topk_mlm_output(fr_target_dict, 'xlm-roberta-base', fr_templates, fr_country_templates, '')
+get_topk_mlm_output(fr_target_dict, 'xlm-roberta-large', fr_templates, fr_country_templates, '')
+As can be seen this has to be ran three times for each model, The input are the french templates and dictionary.
+
+This output is important for the final step
+
+
+The following lines will generate the rest of the files, the last inputs are for french: 'fr' AND 'French (fr)' and for turkish: 'tr' AND 'Turkish'.
+
+for model_name in ['fr_emotion_bert-base-multilingual-uncased', 'fr_emotion_xlm-roberta-base', 'fr_emotion_xlm-roberta-large']:
+
+    for cat in ['age', 'religion', 'political', 'race', 'gender', 'country', 'sexuality', 'lifestyle', 'profession']:
+
+        compute_emotion_scores(model_name, cat,  'mlm_output', model_name, 'fr', 'French (fr)')
