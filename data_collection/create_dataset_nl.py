@@ -9,7 +9,6 @@ import json
 import logging
 import requests
 import argparse
-import numpy as np
 import pandas as pd
 from fake_useragent import UserAgent
 import re
@@ -144,9 +143,9 @@ def extract_json_from_response(response_text):
 
 def bing(keywords, query, temp, group, cat):
     '''
-    Code for querying autocomplete suggestion by scraping Bing's autocomplete.
+    Code for querying autocomplete suggestion using Bing's API.
     '''
-    url = f'https://api.bing.com/qsonhs.aspx?type=cb&q={keywords}&mkt=nl-NL'
+    url = 'https://api.bing.com/qsonhs.aspx?type=cb&q=' + keywords + "&mkt=nl-NL"
     ua = UserAgent()
     headers = {"User-Agent": ua.chrome}
     

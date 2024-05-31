@@ -1,16 +1,4 @@
-from transformers import AutoModelForMaskedLM, AutoTokenizer, pipeline
-import torch
-import pandas as pd 
-import numpy as np 
-import spacy 
 import json
-from nrclex import NRCLex
-import matplotlib
-import matplotlib.pyplot as plt
-import seaborn as sns
-from itertools import groupby
-from collections import defaultdict
-import os.path
 
 
 dictionary1 = json.load(open('new_result/roberta-base-corrected.json',"r"))

@@ -1,16 +1,11 @@
 import numpy as np
 
-import scipy as sp
-import scipy.spatial
-import scipy.stats
-import logging
 import json
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 from .target_dicts import eng_target_dict
-from utils.utils import plot_and_save_fig, get_target_category
-import os.path
+from utils.utils import get_target_category
 
 def detect_outliers(array, targets, m=3):
     order= ['Negative', 'Positive',  'Disgust', 'Anger','Sadness']

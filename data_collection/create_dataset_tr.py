@@ -1,6 +1,6 @@
 '''
 This file is used to create a dataset containing stereotypical autocomplete suggestions from four search engines:
-Google, Yahoo and DuckDuckGo. The publicly available API's are used for the resepective search engines to collect the data.
+Google, Yahoo, DuckDuckGo and Bing. The publicly available API's are used for the resepective search engines to collect the data.
 '''
 
 # Import packages
@@ -9,7 +9,6 @@ import json
 import logging
 import requests
 import argparse
-import numpy as np
 import pandas as pd
 from fake_useragent import UserAgent
 import re
@@ -144,9 +143,9 @@ def extract_json_from_response(response_text):
 
 def bing(keywords, query, temp, group, cat):
     '''
-    Code for querying autocomplete suggestion by scraping Bing's autocomplete.
+    Code for querying autocomplete suggestion using Bing's API.
     '''
-    url = f'https://api.bing.com/qsonhs.aspx?type=cb&q={keywords}&mkt=tr-TR'
+    url = 'https://api.bing.com/qsonhs.aspx?type=cb&q=' + keywords + "&mkt=tr-TR"
     ua = UserAgent()
     headers = {"User-Agent": ua.chrome}
     
@@ -210,7 +209,7 @@ def check_query(word_list, pred, group):
 
 def main():
 	'''
-	Retrieve data from all three search engines into a csv file.
+	Retrieve data from all four search engines into a csv file.
 	'''
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--save_path", default="stereo_dataset/merged_data_tr+bing.csv", type=str, help="Path to save dataset")
