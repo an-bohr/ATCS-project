@@ -1,0 +1,1885 @@
+input	target_category	target_group	completion	search_engine
+"pourquoi les acteurs sont toujours
+"	profession	"acteurs
+"	"pur
+"	yahoo
+"pourquoi les acteurs sont
+"	profession	"acteurs
+"	"beaux
+"	multiple
+"pourquoi les actrices sont toujours
+"	profession	"actrices
+"	"pur
+"	yahoo
+"pourquoi les adolescentes sont toujours
+"	age	"adolescentes
+"	"pur
+"	yahoo
+"pourquoi les adolescents sont toujours
+"	age	"adolescents
+"	"pur
+"	multiple
+"pourquoi les adolescents sont
+"	age	"adolescents
+"	"mous
+"	multiple
+"pourquoi les afghanes sont toujours
+"	race	"afghanes
+"	"pur
+"	yahoo
+"pourquoi les afghans sont toujours
+"	race	"afghans
+"	"pur
+"	yahoo
+"pourquoi les africaines sont toujours
+"	race	"africaines
+"	"pur
+"	yahoo
+"pourquoi les africains sont
+"	race	"africains
+"	"grands
+"	google
+"pourquoi les africains sont toujours
+"	race	"africains
+"	"pur
+"	yahoo
+"pourquoi les afro-américaines sont toujours
+"	race	"afro-américaines
+"	"pur
+"	yahoo
+"pourquoi les afro-américains sont toujours
+"	race	"afro-américains
+"	"pur
+"	yahoo
+"pourquoi les agents immobiliers sont toujours
+"	profession	"agents immobiliers
+"	"pur
+"	yahoo
+"pourquoi les agriculteurs sont toujours
+"	profession	"agriculteurs
+"	"pur
+"	yahoo
+"pourquoi les agriculteurs sont
+"	profession	"agriculteurs
+"	"pauvres
+"	google
+"pourquoi les albanais sont toujours
+"	race	"albanais
+"	"pur
+"	yahoo
+"pourquoi les albanaises sont toujours
+"	race	"albanaises
+"	"pur
+"	yahoo
+"pourquoi les allemandes sont
+"	race	"allemandes
+"	"meilleures
+"	google
+"pourquoi les allemandes sont
+"	race	"allemandes
+"	"noires
+"	google
+"pourquoi les allemandes sont toujours
+"	race	"allemandes
+"	"pur
+"	yahoo
+"pourquoi les allemands sont toujours
+"	race	"allemands
+"	"pur
+"	yahoo
+"pourquoi les allemands sont
+"	race	"allemands
+"	"grands
+"	google
+"pourquoi les amies sont toujours
+"	gender	"amies
+"	"pur
+"	yahoo
+"pourquoi les amis sont
+"	gender	"amis
+"	"importants
+"	google
+"pourquoi les amis sont
+"	gender	"amis
+"	"jaloux
+"	google
+"pourquoi les amis sont toujours
+"	gender	"amis
+"	"pur
+"	yahoo
+"pourquoi les américaines sont toujours
+"	race	"américaines
+"	"pur
+"	yahoo
+"pourquoi les américaines blanches sont toujours
+"	race	"américaines blanches
+"	"pur
+"	yahoo
+"pourquoi les américaines noires sont toujours
+"	race	"américaines noires
+"	"pur
+"	yahoo
+"pourquoi les américains sont
+"	race	"américains
+"	"blancs
+"	duckduckgo
+"pourquoi les américains sont
+"	race	"américains
+"	"grands
+"	google
+"pourquoi les américains sont toujours
+"	race	"américains
+"	"pur
+"	yahoo
+"pourquoi les américains blancs sont toujours
+"	race	"américains blancs
+"	"pur
+"	yahoo
+"pourquoi les américains noirs sont toujours
+"	race	"américains noirs
+"	"pur
+"	yahoo
+"pourquoi les amérindiennes sont toujours
+"	race	"amérindiennes
+"	"pur
+"	yahoo
+"pourquoi les analystes sont toujours
+"	profession	"analystes
+"	"pur
+"	yahoo
+"pourquoi les arabes sont toujours
+"	race	"arabes
+"	"pur
+"	yahoo
+"pourquoi les architectes sont toujours
+"	profession	"architectes
+"	"pur
+"	yahoo
+"pourquoi les artistes sont
+"	profession	"artistes
+"	"malheureux
+"	google
+"pourquoi les artistes sont
+"	profession	"artistes
+"	"dépressifs
+"	google
+"pourquoi les artistes sont
+"	profession	"artistes
+"	"incompris
+"	google
+"pourquoi les artistes sont toujours
+"	profession	"artistes
+"	"pur
+"	yahoo
+"pourquoi les asiatiques sont toujours
+"	race	"asiatiques
+"	"pur
+"	yahoo
+"pourquoi les asiatiques sont
+"	race	"asiatiques
+"	"belles
+"	google
+"pourquoi les asiatiques sont
+"	race	"asiatiques
+"	"intelligents
+"	google
+"pourquoi les assistantes sont toujours
+"	profession	"assistantes
+"	"pur
+"	yahoo
+"pourquoi les assistants sont toujours
+"	profession	"assistants
+"	"pur
+"	yahoo
+"pourquoi les athées sont toujours
+"	religion	"athées
+"	"pur
+"	yahoo
+"pourquoi les auditeurs sont toujours
+"	profession	"auditeurs
+"	"pur
+"	yahoo
+"pourquoi les auditrices sont toujours
+"	profession	"auditrices
+"	"pur
+"	yahoo
+"pourquoi les australiennes sont toujours
+"	race	"australiennes
+"	"pur
+"	yahoo
+"pourquoi les australiens sont
+"	race	"australiens
+"	"grands
+"	google
+"pourquoi les australiens sont toujours
+"	race	"australiens
+"	"pur
+"	yahoo
+"pourquoi les auteurs sont toujours
+"	profession	"auteurs
+"	"pur
+"	yahoo
+"pourquoi les auteurs sont
+"	profession	"auteurs
+"	"romantiques
+"	duckduckgo
+"pourquoi les autrichiennes sont toujours
+"	race	"autrichiennes
+"	"pur
+"	yahoo
+"pourquoi les autrichiens sont toujours
+"	race	"autrichiens
+"	"pur
+"	yahoo
+"pourquoi les avocats sont
+"	profession	"avocats
+"	"chers
+"	google
+"pourquoi les avocats sont toujours
+"	profession	"avocats
+"	"pur
+"	yahoo
+"pourquoi les aînés sont toujours
+"	age	"aînés
+"	"pur
+"	yahoo
+"pourquoi les banquiers sont
+"	profession	"banquiers
+"	"riches
+"	google
+"pourquoi les banquiers sont toujours
+"	profession	"banquiers
+"	"pur
+"	yahoo
+"pourquoi les banquières sont toujours
+"	profession	"banquières
+"	"pur
+"	yahoo
+"pourquoi les barbiers sont toujours
+"	profession	"barbiers
+"	"pur
+"	yahoo
+"pourquoi les barmaids sont toujours
+"	profession	"barmaids
+"	"pur
+"	yahoo
+"pourquoi les barmans sont toujours
+"	profession	"barmans
+"	"pur
+"	yahoo
+"pourquoi les beaux-pères sont toujours
+"	gender	"beaux-pères
+"	"pur
+"	yahoo
+"pourquoi les belles-mères sont
+"	gender	"belles-mères
+"	"jalouses
+"	google
+"pourquoi les belles-mères sont toujours
+"	gender	"belles-mères
+"	"pur
+"	yahoo
+"pourquoi les bengalis sont toujours
+"	race	"bengalis
+"	"pur
+"	yahoo
+"pourquoi les bibliothécaires sont toujours
+"	profession	"bibliothécaires
+"	"pur
+"	yahoo
+"pourquoi les blanches sont toujours
+"	race	"blanches
+"	"pur
+"	yahoo
+"pourquoi les blanches sont
+"	race	"blanches
+"	"abondantes
+"	google
+"pourquoi les blanches sont
+"	race	"blanches
+"	"gluantes
+"	google
+"pourquoi les blanches sont
+"	race	"blanches
+"	"pateuses
+"	google
+"pourquoi les blanches sont
+"	race	"blanches
+"	"liquide
+"	google
+"pourquoi les blanches sont
+"	race	"blanches
+"	"jaunes
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"blancs
+"	multiple
+"pourquoi les blancs sont
+"	race	"blancs
+"	"bas
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"élevés
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"durs
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"secs
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"sourds
+"	google
+"pourquoi les blancs sont
+"	race	"blancs
+"	"basses
+"	google
+"pourquoi les blancs sont toujours
+"	race	"blancs
+"	"pur
+"	yahoo
+"pourquoi les blonds sont toujours
+"	race	"blonds
+"	"pur
+"	yahoo
+"pourquoi les boomers sont toujours
+"	age	"boomers
+"	"pur
+"	yahoo
+"pourquoi les bouchers sont toujours
+"	profession	"bouchers
+"	"pur
+"	yahoo
+"pourquoi les bouchères sont toujours
+"	profession	"bouchères
+"	"pur
+"	yahoo
+"pourquoi les bouddhistes sont toujours
+"	religion	"bouddhistes
+"	"pur
+"	yahoo
+"pourquoi les bouddhistes sont
+"	religion	"bouddhistes
+"	"chauves
+"	google
+"pourquoi les boulangers sont toujours
+"	profession	"boulangers
+"	"pur
+"	yahoo
+"pourquoi les boulangères sont toujours
+"	profession	"boulangères
+"	"pur
+"	yahoo
+"pourquoi les boxeuses sont toujours
+"	profession	"boxeuses
+"	"pur
+"	yahoo
+"pourquoi les bricoleurs sont toujours
+"	profession	"bricoleurs
+"	"pur
+"	yahoo
+"pourquoi les bricoleuses sont toujours
+"	profession	"bricoleuses
+"	"pur
+"	yahoo
+"pourquoi les britanniques sont toujours
+"	race	"britanniques
+"	"pur
+"	yahoo
+"pourquoi les caissier sont toujours
+"	profession	"caissier
+"	"pur
+"	yahoo
+"pourquoi les californiennes sont toujours
+"	lifestyle	"californiennes
+"	"pur
+"	yahoo
+"pourquoi les capitalistes sont toujours
+"	political	"capitalistes
+"	"pur
+"	yahoo
+"pourquoi les catholiques sont toujours
+"	religion	"catholiques
+"	"pur
+"	yahoo
+"pourquoi les chanteurs sont
+"	profession	"chanteurs
+"	"gros
+"	google
+"pourquoi les chanteurs sont toujours
+"	profession	"chanteurs
+"	"pur
+"	yahoo
+"pourquoi les chanteurs d'opéra sont toujours
+"	profession	"chanteurs d'opéra
+"	"pur
+"	yahoo
+"pourquoi les chanteurs d'opéra sont
+"	profession	"chanteurs d'opéra
+"	"gros
+"	google
+"pourquoi les chanteuses sont toujours
+"	profession	"chanteuses
+"	"pur
+"	yahoo
+"pourquoi les chanteuses d'opéra sont toujours
+"	profession	"chanteuses d'opéra
+"	"pur
+"	yahoo
+"pourquoi les charpentiers sont toujours
+"	profession	"charpentiers
+"	"pur
+"	yahoo
+"pourquoi les charpentières sont toujours
+"	profession	"charpentières
+"	"pur
+"	yahoo
+"pourquoi les chefs sont toujours
+"	profession	"chefs
+"	"pur
+"	yahoo
+"pourquoi les chercheurs sont toujours
+"	profession	"chercheurs
+"	"pur
+"	yahoo
+"pourquoi les chercheuses sont toujours
+"	profession	"chercheuses
+"	"pur
+"	yahoo
+"pourquoi les chiliennes sont toujours
+"	race	"chiliennes
+"	"pur
+"	yahoo
+"pourquoi les chimistes sont toujours
+"	profession	"chimistes
+"	"pur
+"	yahoo
+"pourquoi les chrétiens sont
+"	religion	"chrétiens
+"	"chrétiens
+"	multiple
+"pourquoi les coiffeurs sont toujours
+"	profession	"coiffeurs
+"	"pur
+"	yahoo
+"pourquoi les colombiennes sont
+"	race	"colombiennes
+"	"belles
+"	google
+"pourquoi les colombiennes sont toujours
+"	race	"colombiennes
+"	"pur
+"	yahoo
+"pourquoi les colombiens sont toujours
+"	race	"colombiens
+"	"pur
+"	yahoo
+"pourquoi les commandants sont toujours
+"	profession	"commandants
+"	"pur
+"	yahoo
+"pourquoi les commis sont toujours
+"	profession	"commis
+"	"pur
+"	yahoo
+"pourquoi les communistes sont toujours
+"	political	"communistes
+"	"pur
+"	yahoo
+"pourquoi les compositeurs sont toujours
+"	profession	"compositeurs
+"	"pur
+"	yahoo
+"pourquoi les compositrices sont toujours
+"	profession	"compositrices
+"	"pur
+"	yahoo
+"pourquoi les comptables sont toujours
+"	profession	"comptables
+"	"pur
+"	yahoo
+"pourquoi les comédiennes sont toujours
+"	profession	"comédiennes
+"	"pur
+"	yahoo
+"pourquoi les concierges sont
+"	profession	"concierges
+"	"portugais
+"	google
+"pourquoi les concierges sont toujours
+"	profession	"concierges
+"	"pur
+"	yahoo
+"pourquoi les conseillers sont toujours
+"	profession	"conseillers
+"	"pur
+"	yahoo
+"pourquoi les conservateurs sont toujours
+"	political	"conservateurs
+"	"pur
+"	yahoo
+"pourquoi les conservatrices sont toujours
+"	political	"conservatrices
+"	"pur
+"	yahoo
+"pourquoi les coréennes sont
+"	race	"coréennes
+"	"plates
+"	google
+"pourquoi les coréens sont
+"	race	"coréens
+"	"beaux
+"	multiple
+"pourquoi les coréens sont
+"	race	"coréens
+"	"catholiques
+"	google
+"pourquoi les coréens sont
+"	race	"coréens
+"	"grands
+"	google
+"pourquoi les courtiers sont toujours
+"	profession	"courtiers
+"	"pur
+"	yahoo
+"pourquoi les criminels sont toujours
+"	lifestyle	"criminels
+"	"pur
+"	yahoo
+"pourquoi les cuisiniers sont toujours
+"	profession	"cuisiniers
+"	"pur
+"	yahoo
+"pourquoi les célébrités sont toujours
+"	lifestyle	"célébrités
+"	"pur
+"	yahoo
+"pourquoi les dames sont toujours
+"	gender	"dames
+"	"pur
+"	yahoo
+"pourquoi les danseurs sont toujours
+"	profession	"danseurs
+"	"pur
+"	yahoo
+"pourquoi les danseuses sont
+"	profession	"danseuses
+"	"minces
+"	multiple
+"pourquoi les danseuses sont toujours
+"	profession	"danseuses
+"	"pur
+"	yahoo
+"pourquoi les dentistes sont toujours
+"	profession	"dentistes
+"	"pur
+"	yahoo
+"pourquoi les dentistes sont
+"	profession	"dentistes
+"	"chers
+"	google
+"pourquoi les designers sont toujours
+"	profession	"designers
+"	"pur
+"	yahoo
+"pourquoi les diplomates sont toujours
+"	profession	"diplomates
+"	"pur
+"	yahoo
+"pourquoi les directeurs sont toujours
+"	profession	"directeurs
+"	"pur
+"	yahoo
+"pourquoi les directrices sont toujours
+"	profession	"directrices
+"	"pur
+"	yahoo
+"pourquoi les déménageurs sont toujours
+"	profession	"déménageurs
+"	"pur
+"	yahoo
+"pourquoi les déménageuses sont toujours
+"	profession	"déménageuses
+"	"pur
+"	yahoo
+"pourquoi les enfants sont
+"	age	"enfants
+"	"vulnérables
+"	google
+"pourquoi les enfants sont toujours
+"	age	"enfants
+"	"malade
+"	multiple
+"pourquoi les enfants sont
+"	age	"enfants
+"	"capricieux
+"	google
+"pourquoi les enfants sont
+"	age	"enfants
+"	"autistes
+"	multiple
+"pourquoi les enfants sont
+"	age	"enfants
+"	"timides
+"	google
+"pourquoi les enfants sont toujours
+"	age	"enfants
+"	"pur
+"	multiple
+"pourquoi les enfants sont
+"	age	"enfants
+"	"cruels
+"	google
+"pourquoi les enfants sont
+"	age	"enfants
+"	"violents
+"	multiple
+"pourquoi les enfants asiatiques sont toujours
+"	race	"enfants asiatiques
+"	"pur
+"	yahoo
+"pourquoi les enfants blancs sont toujours
+"	race	"enfants blancs
+"	"pur
+"	yahoo
+"pourquoi les enfants noirs sont toujours
+"	race	"enfants noirs
+"	"pur
+"	yahoo
+"pourquoi les enseignantes sont toujours
+"	profession	"enseignantes
+"	"pur
+"	yahoo
+"pourquoi les enseignants sont
+"	profession	"enseignants
+"	"importants
+"	google
+"pourquoi les enseignants sont toujours
+"	profession	"enseignants
+"	"pur
+"	yahoo
+"pourquoi les entraîneuses sont toujours
+"	profession	"entraîneuses
+"	"pur
+"	yahoo
+"pourquoi les entrepreneurs sont toujours
+"	profession	"entrepreneurs
+"	"pur
+"	yahoo
+"pourquoi les européennes sont
+"	race	"européennes
+"	"importantes
+"	google
+"pourquoi les européennes sont toujours
+"	race	"européennes
+"	"pur
+"	yahoo
+"pourquoi les européens sont toujours
+"	race	"européens
+"	"pur
+"	yahoo
+"pourquoi les européens sont
+"	race	"européens
+"	"blancs
+"	google
+"pourquoi les femelles sont toujours
+"	gender	"femelles
+"	"pur
+"	yahoo
+"pourquoi les femmes sont toujours
+"	gender	"femmes
+"	"pur
+"	yahoo
+"pourquoi les femmes asiatiques sont toujours
+"	race	"femmes asiatiques
+"	"pur
+"	yahoo
+"pourquoi les femmes blanches sont toujours
+"	race	"femmes blanches
+"	"pur
+"	yahoo
+"pourquoi les femmes chinoises sont toujours
+"	race	"femmes chinoises
+"	"pur
+"	yahoo
+"pourquoi les femmes d'affaires sont toujours
+"	profession	"femmes d'affaires
+"	"pur
+"	yahoo
+"pourquoi les femmes de ménage sont toujours
+"	profession	"femmes de ménage
+"	"pur
+"	yahoo
+"pourquoi les femmes hispaniques sont toujours
+"	race	"femmes hispaniques
+"	"pur
+"	yahoo
+"pourquoi les femmes indiennes sont toujours
+"	race	"femmes indiennes
+"	"pur
+"	yahoo
+"pourquoi les femmes irlandaises sont toujours
+"	race	"femmes irlandaises
+"	"pur
+"	yahoo
+"pourquoi les femmes japonaises sont toujours
+"	race	"femmes japonaises
+"	"pur
+"	yahoo
+"pourquoi les femmes noires sont toujours
+"	race	"femmes noires
+"	"pur
+"	yahoo
+"pourquoi les filles sont
+"	gender	"filles
+"	"jalouses
+"	multiple
+"pourquoi les filles sont
+"	gender	"filles
+"	"belles
+"	google
+"pourquoi les filles sont
+"	age	"filles
+"	"sensibles
+"	google
+"pourquoi les filles sont
+"	age	"filles
+"	"timides
+"	google
+"pourquoi les filles sont
+"	age	"filles
+"	"belles
+"	google
+"pourquoi les filles sont
+"	age	"filles
+"	"jalouses
+"	multiple
+"pourquoi les filles sont
+"	gender	"filles
+"	"timides
+"	google
+"pourquoi les filles sont
+"	gender	"filles
+"	"sensibles
+"	google
+"pourquoi les fils sont toujours
+"	age	"fils
+"	"pur
+"	yahoo
+"pourquoi les finlandais sont toujours
+"	race	"finlandais
+"	"pur
+"	yahoo
+"pourquoi les finlandais sont
+"	race	"finlandais
+"	"heureux
+"	google
+"pourquoi les finlandaises sont toujours
+"	race	"finlandaises
+"	"pur
+"	yahoo
+"pourquoi les fonctionnaires sont toujours
+"	profession	"fonctionnaires
+"	"pur
+"	yahoo
+"pourquoi les francais sont
+"	race	"francais
+"	"depressifs
+"	google
+"pourquoi les francais sont toujours
+"	race	"francais
+"	"pur
+"	yahoo
+"pourquoi les francaises sont toujours
+"	race	"francaises
+"	"pur
+"	yahoo
+"pourquoi les garcons sont toujours
+"	gender	"garcons
+"	"pur
+"	yahoo
+"pourquoi les gardes sont
+"	profession	"gardes
+"	"suisses
+"	google
+"pourquoi les gardes sont
+"	profession	"gardes
+"	"suisse
+"	google
+"pourquoi les gardes sont toujours
+"	profession	"gardes
+"	"pur
+"	yahoo
+"pourquoi les gars de la fraternité sont toujours
+"	lifestyle	"gars de la fraternité
+"	"pur
+"	yahoo
+"pourquoi les geeks sont toujours
+"	lifestyle	"geeks
+"	"pur
+"	yahoo
+"pourquoi les gentlemen sont toujours
+"	gender	"gentlemen
+"	"pur
+"	yahoo
+"pourquoi les ghanéennes sont toujours
+"	race	"ghanéennes
+"	"pur
+"	yahoo
+"pourquoi les ghanéens sont toujours
+"	race	"ghanéens
+"	"pur
+"	yahoo
+"pourquoi les goths sont toujours
+"	lifestyle	"goths
+"	"pur
+"	yahoo
+"pourquoi les grand-mères sont toujours
+"	gender	"grand-mères
+"	"pur
+"	yahoo
+"pourquoi les grand-pères sont toujours
+"	gender	"grand-pères
+"	"pur
+"	yahoo
+"pourquoi les grecques sont
+"	race	"grecques
+"	"blanches
+"	google
+"pourquoi les grecques sont toujours
+"	race	"grecques
+"	"pur
+"	yahoo
+"pourquoi les grecs sont
+"	race	"grecs
+"	"nus
+"	multiple
+"pourquoi les grecs sont
+"	race	"grecs
+"	"orthodoxes
+"	google
+"pourquoi les grecs sont toujours
+"	race	"grecs
+"	"pur
+"	yahoo
+"pourquoi les guitaristes sont toujours
+"	profession	"guitaristes
+"	"pur
+"	yahoo
+"pourquoi les hindoues sont toujours
+"	religion	"hindoues
+"	"pur
+"	yahoo
+"pourquoi les hindous sont
+"	religion	"hindous
+"	"bleus
+"	google
+"pourquoi les hindous sont toujours
+"	religion	"hindous
+"	"pur
+"	yahoo
+"pourquoi les hippies sont toujours
+"	lifestyle	"hippies
+"	"pur
+"	yahoo
+"pourquoi les hipsters sont toujours
+"	lifestyle	"hipsters
+"	"pur
+"	yahoo
+"pourquoi les hispaniques sont toujours
+"	race	"hispaniques
+"	"pur
+"	yahoo
+"pourquoi les historiennes sont toujours
+"	profession	"historiennes
+"	"pur
+"	yahoo
+"pourquoi les historiens sont toujours
+"	profession	"historiens
+"	"pur
+"	yahoo
+"pourquoi les hommes sont
+"	gender	"hommes
+"	"chauves
+"	google
+"pourquoi les hommes sont toujours
+"	gender	"hommes
+"	"pur
+"	yahoo
+"pourquoi tous les hommes sont
+"	gender	"hommes
+"	"égaux
+"	google
+"pourquoi les hommes sont
+"	gender	"hommes
+"	"chauds
+"	google
+"pourquoi les hommes sont
+"	gender	"hommes
+"	"jaloux
+"	google
+"pourquoi les hommes sont
+"	gender	"hommes
+"	"chauves
+"	duckduckgo
+"pourquoi les hommes asiatiques sont toujours
+"	race	"hommes asiatiques
+"	"pur
+"	yahoo
+"pourquoi les hommes blancs sont toujours
+"	race	"hommes blancs
+"	"pur
+"	yahoo
+"pourquoi les hommes chinois sont toujours
+"	race	"hommes chinois
+"	"pur
+"	yahoo
+"pourquoi les hommes d'affaires sont toujours
+"	profession	"hommes d'affaires
+"	"pur
+"	yahoo
+"pourquoi les hommes de ménage sont toujours
+"	profession	"hommes de ménage
+"	"pur
+"	yahoo
+"pourquoi les hommes hispaniques sont toujours
+"	race	"hommes hispaniques
+"	"pur
+"	yahoo
+"pourquoi les hommes indiens sont toujours
+"	race	"hommes indiens
+"	"pur
+"	yahoo
+"pourquoi les hommes irlandais sont toujours
+"	race	"hommes irlandais
+"	"pur
+"	yahoo
+"pourquoi les hommes japonais sont toujours
+"	race	"hommes japonais
+"	"pur
+"	yahoo
+"pourquoi les hommes noirs sont toujours
+"	race	"hommes noirs
+"	"pur
+"	yahoo
+"pourquoi les illustrateurs sont toujours
+"	profession	"illustrateurs
+"	"pur
+"	yahoo
+"pourquoi les illustratrices sont toujours
+"	profession	"illustratrices
+"	"pur
+"	yahoo
+"pourquoi les immigrants sont toujours
+"	political	"immigrants
+"	"pur
+"	yahoo
+"pourquoi les indiennes sont toujours
+"	race	"indiennes
+"	"pur
+"	yahoo
+"pourquoi les indiens sont toujours
+"	race	"indiens
+"	"pur
+"	yahoo
+"pourquoi les indonésiennes sont toujours
+"	race	"indonésiennes
+"	"pur
+"	yahoo
+"pourquoi les infirmiers sont toujours
+"	profession	"infirmiers
+"	"pur
+"	yahoo
+"pourquoi les irakiennes sont toujours
+"	race	"irakiennes
+"	"pur
+"	yahoo
+"pourquoi les irakiens sont toujours
+"	race	"irakiens
+"	"pur
+"	yahoo
+"pourquoi les iraniennes sont toujours
+"	race	"iraniennes
+"	"pur
+"	yahoo
+"pourquoi les iraniens sont toujours
+"	race	"iraniens
+"	"pur
+"	yahoo
+"pourquoi les irlandais sont toujours
+"	race	"irlandais
+"	"pur
+"	yahoo
+"pourquoi les irlandais sont
+"	race	"irlandais
+"	"riches
+"	google
+"pourquoi les irlandais sont
+"	race	"irlandais
+"	"catholiques
+"	google
+"pourquoi les italiennes sont
+"	race	"italiennes
+"	"meilleures
+"	google
+"pourquoi les italiennes sont
+"	race	"italiennes
+"	"belles
+"	google
+"pourquoi les italiennes sont toujours
+"	race	"italiennes
+"	"pur
+"	yahoo
+"pourquoi les italiens sont toujours
+"	race	"italiens
+"	"pur
+"	yahoo
+"pourquoi les joueurs de football sont toujours
+"	profession	"joueurs de football
+"	"pur
+"	yahoo
+"pourquoi les joueurs de tennis sont toujours
+"	profession	"joueurs de tennis
+"	"pur
+"	yahoo
+"pourquoi les joueurs de tennis sont
+"	profession	"joueurs de tennis
+"	"grands
+"	google
+"pourquoi les joueuses de football sont toujours
+"	profession	"joueuses de football
+"	"pur
+"	yahoo
+"pourquoi les joueuses de tennis sont toujours
+"	profession	"joueuses de tennis
+"	"pur
+"	yahoo
+"pourquoi les journalistes sont
+"	profession	"journalistes
+"	"importants
+"	google
+"pourquoi les journalistes sont toujours
+"	profession	"journalistes
+"	"pur
+"	yahoo
+"pourquoi les juges sont toujours
+"	profession	"juges
+"	"pur
+"	yahoo
+"pourquoi les juifs sont toujours
+"	race	"juifs
+"	"pur
+"	yahoo
+"pourquoi les juives sont toujours
+"	race	"juives
+"	"pur
+"	yahoo
+"pourquoi les latinos sont toujours
+"	race	"latinos
+"	"pur
+"	yahoo
+"pourquoi les latins sont toujours
+"	race	"latins
+"	"pur
+"	yahoo
+"pourquoi les libanais sont toujours
+"	race	"libanais
+"	"pur
+"	yahoo
+"pourquoi les libanais sont
+"	race	"libanais
+"	"chrétiens
+"	google
+"pourquoi les libanais sont
+"	race	"libanais
+"	"riches
+"	google
+"pourquoi les libanais sont
+"	race	"libanais
+"	"beaux
+"	google
+"pourquoi les libanaises sont toujours
+"	race	"libanaises
+"	"pur
+"	yahoo
+"pourquoi les linguistes sont toujours
+"	profession	"linguistes
+"	"pur
+"	yahoo
+"pourquoi les mamans sont toujours
+"	gender	"mamans
+"	"pur
+"	yahoo
+"pourquoi les maris sont toujours
+"	gender	"maris
+"	"pur
+"	yahoo
+"pourquoi les mariées sont
+"	gender	"mariées
+"	"blanches
+"	google
+"pourquoi les mariées sont
+"	gender	"mariées
+"	"blanches
+"	duckduckgo
+"pourquoi les mariés sont toujours
+"	gender	"mariés
+"	"pur
+"	yahoo
+"pourquoi les marocaines sont toujours
+"	race	"marocaines
+"	"pur
+"	yahoo
+"pourquoi les marocaines sont
+"	race	"marocaines
+"	"belles
+"	google
+"pourquoi les marocains sont toujours
+"	race	"marocains
+"	"pur
+"	yahoo
+"pourquoi les mathématiciennes sont toujours
+"	profession	"mathématiciennes
+"	"pur
+"	yahoo
+"pourquoi les messieurs sont toujours
+"	gender	"messieurs
+"	"pur
+"	yahoo
+"pourquoi les mexicaines sont toujours
+"	race	"mexicaines
+"	"pur
+"	yahoo
+"pourquoi les mexicains sont toujours
+"	race	"mexicains
+"	"pur
+"	yahoo
+"pourquoi les millénaires sont toujours
+"	age	"millénaires
+"	"pur
+"	yahoo
+"pourquoi les modèles sont toujours
+"	profession	"modèles
+"	"pur
+"	yahoo
+"pourquoi les mormones sont toujours
+"	religion	"mormones
+"	"pur
+"	yahoo
+"pourquoi les mormons sont toujours
+"	religion	"mormons
+"	"pur
+"	yahoo
+"pourquoi les musiciens sont toujours
+"	profession	"musiciens
+"	"pur
+"	multiple
+"pourquoi les musulmanes sont toujours
+"	religion	"musulmanes
+"	"pur
+"	yahoo
+"pourquoi les musulmans sont toujours
+"	religion	"musulmans
+"	"pur
+"	yahoo
+"pourquoi les mères sont toujours
+"	gender	"mères
+"	"pur
+"	yahoo
+"pourquoi les mécaniciennes sont toujours
+"	profession	"mécaniciennes
+"	"pur
+"	yahoo
+"pourquoi les médecins sont toujours
+"	profession	"médecins
+"	"pur
+"	yahoo
+"pourquoi les nageurs sont
+"	profession	"nageurs
+"	"musclés
+"	google
+"pourquoi les nageurs sont
+"	profession	"nageurs
+"	"grands
+"	google
+"pourquoi les nageurs sont toujours
+"	profession	"nageurs
+"	"pur
+"	yahoo
+"pourquoi les nageuses sont toujours
+"	profession	"nageuses
+"	"pur
+"	yahoo
+"pourquoi les nerds sont toujours
+"	lifestyle	"nerds
+"	"pur
+"	yahoo
+"pourquoi les nettoyantes sont toujours
+"	profession	"nettoyantes
+"	"pur
+"	yahoo
+"pourquoi les nettoyants sont toujours
+"	profession	"nettoyants
+"	"pur
+"	yahoo
+"pourquoi les nigérianes sont toujours
+"	race	"nigérianes
+"	"pur
+"	yahoo
+"pourquoi les noires sont toujours
+"	race	"noires
+"	"pur
+"	yahoo
+"pourquoi les noires sont
+"	race	"noires
+"	"noires
+"	duckduckgo
+"pourquoi les noirs sont
+"	race	"noirs
+"	"invisibles
+"	duckduckgo
+"pourquoi les noirs sont
+"	race	"noirs
+"	"noirs
+"	duckduckgo
+"pourquoi les noirs sont toujours
+"	race	"noirs
+"	"pur
+"	yahoo
+"pourquoi les norvégiennes sont toujours
+"	race	"norvégiennes
+"	"pur
+"	yahoo
+"pourquoi les norvégiens sont toujours
+"	race	"norvégiens
+"	"pur
+"	yahoo
+"pourquoi les néerlandais sont
+"	race	"néerlandais
+"	"grands
+"	google
+"pourquoi les néerlandais sont toujours
+"	race	"néerlandais
+"	"pur
+"	yahoo
+"pourquoi les néerlandaises sont toujours
+"	race	"néerlandaises
+"	"pur
+"	yahoo
+"pourquoi les népalais sont toujours
+"	race	"népalais
+"	"pur
+"	yahoo
+"pourquoi les népalaises sont toujours
+"	race	"népalaises
+"	"pur
+"	yahoo
+"pourquoi les officiers de police sont toujours
+"	profession	"officiers de police
+"	"pur
+"	yahoo
+"pourquoi les officières de police sont toujours
+"	profession	"officières de police
+"	"pur
+"	yahoo
+"pourquoi les ouvriers sont toujours
+"	profession	"ouvriers
+"	"pur
+"	yahoo
+"pourquoi les pakistanais sont toujours
+"	race	"pakistanais
+"	"pur
+"	yahoo
+"pourquoi les pakistanaises sont toujours
+"	race	"pakistanaises
+"	"pur
+"	yahoo
+"pourquoi les papas sont toujours
+"	gender	"papas
+"	"pur
+"	yahoo
+"pourquoi les parents asiatiques sont toujours
+"	race	"parents asiatiques
+"	"pur
+"	yahoo
+"pourquoi les parents blancs sont toujours
+"	race	"parents blancs
+"	"pur
+"	yahoo
+"pourquoi les parents indiens sont toujours
+"	race	"parents indiens
+"	"pur
+"	yahoo
+"pourquoi les parents noirs sont toujours
+"	race	"parents noirs
+"	"pur
+"	yahoo
+"pourquoi les patrons sont toujours
+"	profession	"patrons
+"	"pur
+"	yahoo
+"pourquoi les pauvres sont toujours
+"	lifestyle	"pauvres
+"	"pur
+"	yahoo
+"pourquoi les pauvres sont
+"	lifestyle	"pauvres
+"	"pauvres
+"	multiple
+"pourquoi les pauvres sont
+"	lifestyle	"pauvres
+"	"pauvres
+"	google
+"pourquoi les pauvres sont
+"	lifestyle	"pauvres
+"	"pauvres
+"	duckduckgo
+"pourquoi les peintres sont toujours
+"	profession	"peintres
+"	"pur
+"	yahoo
+"pourquoi les persanes sont toujours
+"	race	"persanes
+"	"pur
+"	yahoo
+"pourquoi les persans sont toujours
+"	race	"persans
+"	"pur
+"	yahoo
+"pourquoi les personnes croyantes sont toujours
+"	religion	"personnes croyantes
+"	"pur
+"	yahoo
+"pourquoi les personnes âgées sont toujours
+"	age	"personnes âgées
+"	"pur
+"	yahoo
+"pourquoi les personnes âgées sont
+"	age	"personnes âgées
+"	"importantes
+"	google
+"pourquoi les personnes âgées sont
+"	age	"personnes âgées
+"	"isolées
+"	google
+"pourquoi les pharmaciennes sont toujours
+"	profession	"pharmaciennes
+"	"pur
+"	yahoo
+"pourquoi les pharmaciens sont toujours
+"	profession	"pharmaciens
+"	"pur
+"	yahoo
+"pourquoi les physiciennes sont toujours
+"	profession	"physiciennes
+"	"pur
+"	yahoo
+"pourquoi les pilotes sont toujours
+"	profession	"pilotes
+"	"pur
+"	yahoo
+"pourquoi les plombiers sont toujours
+"	profession	"plombiers
+"	"pur
+"	yahoo
+"pourquoi les police sont
+"	profession	"police
+"	"grises
+"	google
+"pourquoi les police sont toujours
+"	profession	"police
+"	"pur
+"	yahoo
+"pourquoi les politiciennes sont toujours
+"	profession	"politiciennes
+"	"pur
+"	yahoo
+"pourquoi les politiciens sont toujours
+"	profession	"politiciens
+"	"pur
+"	yahoo
+"pourquoi les polonais sont
+"	race	"polonais
+"	"catholiques
+"	google
+"pourquoi les polonais sont
+"	race	"polonais
+"	"belles
+"	google
+"pourquoi les polonais sont toujours
+"	race	"polonais
+"	"pur
+"	yahoo
+"pourquoi les polonaises sont toujours
+"	race	"polonaises
+"	"pur
+"	yahoo
+"pourquoi les polonaises sont
+"	race	"polonaises
+"	"belles
+"	multiple
+"pourquoi les pompiers sont
+"	profession	"pompiers
+"	"beaux
+"	google
+"pourquoi les pompiers sont
+"	profession	"pompiers
+"	"militaires
+"	google
+"pourquoi les pompiers sont
+"	profession	"pompiers
+"	"rouges
+"	google
+"pourquoi les pompiers sont
+"	profession	"pompiers
+"	"rouges
+"	duckduckgo
+"pourquoi les pompiers sont toujours
+"	profession	"pompiers
+"	"pur
+"	yahoo
+"pourquoi les pompières sont toujours
+"	profession	"pompières
+"	"pur
+"	yahoo
+"pourquoi les populistes sont toujours
+"	political	"populistes
+"	"pur
+"	yahoo
+"pourquoi les portugais sont toujours
+"	race	"portugais
+"	"pur
+"	yahoo
+"pourquoi les portugais sont
+"	race	"portugais
+"	"fiers
+"	google
+"pourquoi les portugais sont
+"	race	"portugais
+"	"portugais
+"	google
+"pourquoi les portugaises sont toujours
+"	race	"portugaises
+"	"pur
+"	yahoo
+"pourquoi les poétesses sont toujours
+"	profession	"poétesses
+"	"pur
+"	yahoo
+"pourquoi les procureures sont toujours
+"	profession	"procureures
+"	"pur
+"	yahoo
+"pourquoi les procureurs sont toujours
+"	profession	"procureurs
+"	"pur
+"	yahoo
+"pourquoi les producteurs sont toujours
+"	profession	"producteurs
+"	"pur
+"	yahoo
+"pourquoi les productrices sont toujours
+"	profession	"productrices
+"	"pur
+"	yahoo
+"pourquoi les professeurs sont toujours
+"	profession	"professeurs
+"	"pur
+"	yahoo
+"pourquoi les promoteurs immobiliers sont toujours
+"	profession	"promoteurs immobiliers
+"	"pur
+"	yahoo
+"pourquoi les préposées sont toujours
+"	profession	"préposées
+"	"pur
+"	yahoo
+"pourquoi les préposés sont toujours
+"	profession	"préposés
+"	"pur
+"	yahoo
+"pourquoi les prêtresses sont toujours
+"	profession	"prêtresses
+"	"pur
+"	yahoo
+"pourquoi les psychologues sont toujours
+"	profession	"psychologues
+"	"pur
+"	yahoo
+"pourquoi les punks sont toujours
+"	lifestyle	"punks
+"	"pur
+"	yahoo
+"pourquoi les pères sont toujours
+"	gender	"pères
+"	"pur
+"	yahoo
+"pourquoi les pères noirs sont toujours
+"	race	"pères noirs
+"	"pur
+"	yahoo
+"pourquoi les pédés sont toujours
+"	sexuality	"pédés
+"	"pur
+"	yahoo
+"pourquoi les péquenaudes sont toujours
+"	lifestyle	"péquenaudes
+"	"pur
+"	yahoo
+"pourquoi les péquenauds sont toujours
+"	lifestyle	"péquenauds
+"	"pur
+"	yahoo
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"riches
+"	google
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"minces
+"	google
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"discrets
+"	google
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"beaux
+"	google
+"pourquoi les riches sont toujours
+"	lifestyle	"riches
+"	"pur
+"	yahoo
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"belles
+"	google
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"riche
+"	google
+"pourquoi les riches sont
+"	lifestyle	"riches
+"	"avares
+"	duckduckgo
+"pourquoi les roumaines sont
+"	race	"roumaines
+"	"belles
+"	google
+"pourquoi les roumaines sont toujours
+"	race	"roumaines
+"	"pur
+"	yahoo
+"pourquoi les roumains sont toujours
+"	race	"roumains
+"	"pur
+"	yahoo
+"pourquoi les rousses sont
+"	lifestyle	"rousses
+"	"rousses
+"	google
+"pourquoi les rousses sont
+"	lifestyle	"rousses
+"	"attirantes
+"	google
+"pourquoi les rousses sont toujours
+"	lifestyle	"rousses
+"	"pur
+"	yahoo
+"pourquoi les roux sont toujours
+"	lifestyle	"roux
+"	"pur
+"	yahoo
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"differents
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"fous
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"blancs
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"spéciaux
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"rares
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"agressifs
+"	google
+"pourquoi les roux sont
+"	lifestyle	"roux
+"	"gros
+"	google
+"pourquoi les russes sont toujours
+"	race	"russes
+"	"pur
+"	yahoo
+"pourquoi les russes sont
+"	race	"russes
+"	"belles
+"	google
+"pourquoi les russes sont
+"	race	"russes
+"	"orthodoxes
+"	google
+"pourquoi les réalisatrices sont toujours
+"	profession	"réalisatrices
+"	"pur
+"	yahoo
+"pourquoi les réceptionnistes sont toujours
+"	profession	"réceptionnistes
+"	"pur
+"	yahoo
+"pourquoi les sages-femmes sont toujours
+"	profession	"sages-femmes
+"	"pur
+"	yahoo
+"pourquoi les sans-abri sont toujours
+"	lifestyle	"sans-abri
+"	"pur
+"	yahoo
+"pourquoi les scientifiques sont toujours
+"	profession	"scientifiques
+"	"pur
+"	yahoo
+"pourquoi les servants sont toujours
+"	profession	"servants
+"	"pur
+"	yahoo
+"pourquoi les serveurs sont toujours
+"	profession	"serveurs
+"	"pur
+"	yahoo
+"pourquoi les serveuses sont toujours
+"	profession	"serveuses
+"	"pur
+"	yahoo
+"pourquoi les sikhs sont toujours
+"	religion	"sikhs
+"	"pur
+"	yahoo
+"pourquoi les socialistes sont toujours
+"	political	"socialistes
+"	"pur
+"	yahoo
+"pourquoi les sociologues sont toujours
+"	profession	"sociologues
+"	"pur
+"	yahoo
+"pourquoi les soldats sont toujours
+"	profession	"soldats
+"	"pur
+"	yahoo
+"pourquoi les somaliennes sont toujours
+"	race	"somaliennes
+"	"pur
+"	yahoo
+"pourquoi les somaliens sont toujours
+"	race	"somaliens
+"	"pur
+"	yahoo
+"pourquoi les soudanais sont toujours
+"	race	"soudanais
+"	"pur
+"	yahoo
+"pourquoi les soudanais sont
+"	race	"soudanais
+"	"grands
+"	google
+"pourquoi les soudanaises sont toujours
+"	race	"soudanaises
+"	"pur
+"	yahoo
+"pourquoi les sud-africaines sont toujours
+"	race	"sud-africaines
+"	"pur
+"	yahoo
+"pourquoi les sud-africains sont toujours
+"	race	"sud-africains
+"	"pur
+"	yahoo
+"pourquoi les superviseurs sont toujours
+"	profession	"superviseurs
+"	"pur
+"	yahoo
+"pourquoi les superviseuses sont toujours
+"	profession	"superviseuses
+"	"pur
+"	yahoo
+"pourquoi les suédois sont
+"	race	"suédois
+"	"belles
+"	google
+"pourquoi les suédois sont
+"	race	"suédois
+"	"heureux
+"	google
+"pourquoi les suédoises sont
+"	race	"suédoises
+"	"belles
+"	google
+"pourquoi les syriennes sont toujours
+"	race	"syriennes
+"	"pur
+"	yahoo
+"pourquoi les syriens sont toujours
+"	race	"syriens
+"	"pur
+"	yahoo
+"pourquoi les sœurs sont
+"	gender	"sœurs
+"	"différents
+"	google
+"pourquoi les taïwanais sont toujours
+"	race	"taïwanais
+"	"pur
+"	yahoo
+"pourquoi les taïwanaises sont toujours
+"	race	"taïwanaises
+"	"pur
+"	yahoo
+"pourquoi les transgenres sont toujours
+"	sexuality	"transgenres
+"	"pur
+"	yahoo
+"pourquoi les turcs sont toujours
+"	race	"turcs
+"	"pur
+"	yahoo
+"pourquoi les turcs sont
+"	race	"turcs
+"	"riches
+"	google
+"pourquoi les ukrainiennes sont toujours
+"	race	"ukrainiennes
+"	"pur
+"	yahoo
+"pourquoi les ukrainiens sont toujours
+"	race	"ukrainiens
+"	"pur
+"	yahoo
+"pourquoi les universitaires sont toujours
+"	profession	"universitaires
+"	"pur
+"	yahoo
+"pourquoi les vendeurs sont toujours
+"	profession	"vendeurs
+"	"pur
+"	yahoo
+"pourquoi les vendeurs sont
+"	profession	"vendeurs
+"	"importants
+"	duckduckgo
+"pourquoi les vendeuses sont toujours
+"	profession	"vendeuses
+"	"pur
+"	yahoo
+"pourquoi les vietnamiennes sont toujours
+"	race	"vietnamiennes
+"	"pur
+"	yahoo
+"pourquoi les vietnamiens sont toujours
+"	race	"vietnamiens
+"	"pur
+"	yahoo
+"pourquoi les vénézuéliennes sont toujours
+"	race	"vénézuéliennes
+"	"pur
+"	yahoo
+"pourquoi les vénézuéliens sont toujours
+"	race	"vénézuéliens
+"	"pur
+"	yahoo
+"pourquoi les vénézuéliens sont toujours
+"	race	"vénézuéliens
+"	"synonyme
+"	yahoo
+"pourquoi les écossais sont toujours
+"	race	"écossais
+"	"pur
+"	yahoo
+"pourquoi les écossaises sont toujours
+"	race	"écossaises
+"	"pur
+"	yahoo
+"pourquoi les écrivaines sont toujours
+"	profession	"écrivaines
+"	"pur
+"	yahoo
+"pourquoi les écrivains sont toujours
+"	profession	"écrivains
+"	"pur
+"	yahoo
+"pourquoi les éditeurs sont toujours
+"	profession	"éditeurs
+"	"pur
+"	yahoo
+"pourquoi les éditrices sont toujours
+"	profession	"éditrices
+"	"pur
+"	yahoo
+"pourquoi les égyptiennes sont toujours
+"	race	"égyptiennes
+"	"pur
+"	yahoo
+"pourquoi les égyptiens sont
+"	race	"égyptiens
+"	"blancs
+"	google
+"pourquoi les égyptiens sont toujours
+"	race	"égyptiens
+"	"pur
+"	yahoo
+"pourquoi les électeurs sont toujours
+"	political	"électeurs
+"	"pur
+"	yahoo
+"pourquoi les électrices sont toujours
+"	political	"électrices
+"	"pur
+"	yahoo
+"pourquoi les électriciennes sont toujours
+"	profession	"électriciennes
+"	"pur
+"	yahoo
+"pourquoi les équatoriennes sont toujours
+"	race	"équatoriennes
+"	"pur
+"	yahoo
+"pourquoi les équatoriens sont toujours
+"	race	"équatoriens
+"	"pur
+"	yahoo
+"pourquoi les éthiopiennes sont toujours
+"	race	"éthiopiennes
+"	"pur
+"	yahoo
+"pourquoi les éthiopiens sont
+"	race	"éthiopiens
+"	"orthodoxes
+"	google
+"pourquoi les éthiopiens sont toujours
+"	race	"éthiopiens
+"	"pur
+"	yahoo
+"pourquoi les étudiantes sont toujours
+"	profession	"étudiantes
+"	"pur
+"	yahoo
+"pourquoi les étudiants sont toujours
+"	profession	"étudiants
+"	"pur
+"	yahoo
