@@ -4,13 +4,12 @@ import pandas as pd
 import numpy as np 
 import spacy 
 import json
-#from nrclex import NRCLex
 from itertools import groupby
 from collections import defaultdict
 from utils.target_dicts import eng_target_dict
 from utils.target_dicts_fr import fr_target_dict
-from turkish_dutch.target_dicts_nl import nl_target_dict
-from turkish_dutch.target_dicts_tr import tr_target_dict
+from utils.target_dicts_nl import nl_target_dict
+from utils.target_dicts_tr import tr_target_dict
 from utils.utils import plot_and_save_fig, get_target_category
 import os.path
 from os import path
@@ -63,56 +62,6 @@ def get_topk_mlm_output(dicti, model_name, templates, country_templates, diri):
     f.write(o)
     f.close()
 
-
-# def finetuned_target_emotion_words(dicti, model_path, source, templates, country_templates, diri):
-    
-#     tokenizer = AutoTokenizer.from_pretrained(model_path)
-#     model = AutoModelForMaskedLM.from_pretrained(model_path)
-
-#     out_dict= defaultdict(list)
-#     for cat in dicti.keys():
-#         for group in dicti[cat]:
-#             if cat != 'country':
-#                 temps = templates
-#             else:
-#                 temps = country_templates
-
-#             sequences = [tokenizer.cls_token + " " +  t.replace('term_to_use', group) + " " + tokenizer.mask_token + ' ? ' + tokenizer.sep_token for t in temps] 
-
-#             for sequence in sequences: 
-#                 input = tokenizer.encode(sequence, return_tensors="pt")
-#                 mask_token_index = torch.where(input == tokenizer.mask_token_id)[1]
-
-#                 token_logits = model(input)[0]
-#                 mask_token_logits = token_logits[0, mask_token_index, :]
-#                 sm = torch.nn.Softmax(dim=0)
-
-#                 top_k_weights, top_k_tokens = torch.topk(mask_token_logits, 200, dim=1)
-#                 weights = top_k_weights[0]
-#                 weights = sm(weights).tolist()
-#                 top_k_tokens =  top_k_tokens[0].tolist()
-                
-#                 output = []
-#                 t = 0
-#                 for token in top_k_tokens:
-#                     pred = tokenizer.decode([token])
-#                     output.append(pred)
-#                     t+=1
-
-#                 out_dict[group].extend(output)
-
-#         out_dict[group] = sorted(out_dict[group], key = out_dict[group][0].count, reverse=True)
-#         out_dict[group] = list(dict.fromkeys(out_dict[group]))
-#         print(out_dict[group], len(out_dict[group]))
-
- 
-#     o = json.dumps(out_dict)
-#     f = open(diri+'/'+source+".json","w")
-#     f.write(o)
-#     f.close()
-
-
-
 def compute_emotion_scores(model_name, cat_of_interest,  savedir, name, language, lan_nrc):
 
     if path.isfile(savedir+'/'+cat_of_interest+'_'+model_name+'.json'):
@@ -136,6 +85,16 @@ def compute_emotion_scores(model_name, cat_of_interest,  savedir, name, language
                 if get_target_category(group, nl_target_dict) != cat_of_interest:
                     continue;
 
+            
+            elif language == 'tr':
+                if get_target_category(group, tr_target_dict) != cat_of_interest:
+                    continue;
+
+            
+            if language == 'fr':
+                if get_target_category(group, fr_target_dict) != cat_of_interest:
+                    continue;
+                    
             else:
                 if get_target_category(group, eng_target_dict) != cat_of_interest:
                     continue;
@@ -192,11 +151,5 @@ fr_country_templates = ['pourquoi term_to_use est si', "qu'est-ce qu'il rend ter
 nl_templates = ['waarom zijn term_to_use zo', "wat maakt term_to_use zo", 'hoezo zijn term_to_use zo', "waarom zijn term_to_use altijd zo", 'waarom zijn alle term_to_use zo']
 nl_country_templates = ['waarom is term_to_use zo', "wat maakt term_to_use zo", 'hoezo is term_to_use zo', "waarom is term_to_use altijd zo", 'waarom zijn alle mensen in term_to_use zo' ]
 
-# get_topk_mlm_output(fr_target_dict, 'bert-base-multilingual-uncased', fr_templates, fr_country_templates, '')
-# get_topk_mlm_output(fr_target_dict, 'xlm-roberta-base', fr_templates, fr_country_templates, '')
-# get_topk_mlm_output(fr_target_dict, 'xlm-roberta-large', fr_templates, fr_country_templates, '')
-
-# for model_name in ['fr_emotion_bert-base-multilingual-uncased', 'fr_emotion_xlm-roberta-base', 'fr_emotion_xlm-roberta-large']:
-#     for cat in ['age', 'religion', 'political', 'race', 'gender', 'country', 'sexuality', 'lifestyle', 'profession']:
-
-#         compute_emotion_scores(model_name, cat,  'mlm_output', model_name, 'fr', 'French (fr)')
+tr_templates = ['neden term_to_use bu kadar', "term_to_use neyden dolayı bu kadar", 'term_to_use nasıl oluyor da bu kadar', 'term_to_use neden her zaman bu kadar', 'her term_to_use neden bu kadar']
+tr_country_templates = ['term_to_use neden bu kadar', "term_to_use neyden dolayı bu kadar", 'term_to_use nasıl oluyor da bu kadar', 'term_to_use neden her zaman bu kadar', 'why are all people in term_to_use so' ]
