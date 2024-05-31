@@ -38,8 +38,6 @@ def plot_and_save_fig(data, targets, model_name, labels=['neg.', 'pos.', 'disgus
 
     plt.setp(ax.get_xticklabels(), rotation=90, fontsize=size, fontweight='bold')
     plt.setp(ax.get_yticklabels(), rotation=50, ha="right", rotation_mode="anchor", fontsize=size, fontweight='bold')
-    output_path = path.join('outputs/', f'highlights_{model_name}.png')
-    plt.savefig(output_path)
     fig.tight_layout()
     plt.show()
 
