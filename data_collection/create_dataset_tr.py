@@ -1,5 +1,5 @@
 '''
-This file is used to create a dataset containing stereotypical autocomplete suggestions from three search engines:
+This file is used to create a dataset containing stereotypical autocomplete suggestions from four search engines:
 Google, Yahoo and DuckDuckGo. The publicly available API's are used for the resepective search engines to collect the data.
 '''
 

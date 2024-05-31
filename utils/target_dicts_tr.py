@@ -49,5 +49,5 @@ tr_target_dict= {'gender': ['kızlar', 'kadınlar', 'erkekler', 'erkek çocuklar
 
 
 templates = ['neden term_to_use bu kadar', "term_to_use neyden dolayı bu kadar", 'term_to_use nasıl oluyor da bu kadar', 'term_to_use neden her zaman bu kadar', 'her term_to_use neden bu kadar']
-country_templates = ['term_to_use neden bu kadar', "term_to_use neyden dolayı bu kadar", 'term_to_use nasıl oluyor da bu kadar', 'term_to_use neden her zaman bu kadar', 'why are all people in term_to_use so' ]
+country_templates = ['term_to_use neden bu kadar', "term_to_use neyden dolayı bu kadar", 'term_to_use nasıl oluyor da bu kadar', 'term_to_use neden her zaman bu kadar', 'neden term_to_use içindeki tüm insanlar bu kadar' ]
 
