@@ -33,8 +33,8 @@ Turkish or <code>nl</code> for Dutch: \
 <code> python create_dataset_{fr/tr/nl}.py </code> \
 To clean up the data run e.g:\
 <code> python clean_dataset.py </code>\
-If you have chosen the French, Turkish or Dutch datasets, please use this command by selecting the language: \
-<code> python clean_dataset_{fr/tr/nl}.py </code>\
+If you have chosen the French dataset, please use this command: \
+<code> python clean_dataset_fr.py </code>\
 *Note that the final dataset from the original paper has been manually cleaned up as well.*
 
 In an attempt to return results that are correct, we have also cleaned up the autocomplete suggestions dataset following the paper's suggestions, namely: filter duplicate answers, multiple word answers and we made sure that the returned suggestions were adjectives. No manual clean up was involved.
@@ -45,6 +45,14 @@ This repo contains a **demo notebook** that contains an easy interface to furthe
 
 ## Running your own fine-tuning experiments
 To run your own experiments first fine-tune a model on a data source of choice, e.g. using the code provided by the <a href="https://github.com/huggingface/transformers/tree/master/examples/pytorch/language-modeling">Hugging Face library</a>. Code for running experiments on probing the language model for stereotypes can be found in the file <code>probe_mlm.py</code>. To retrieve emotion profiles see <code>compute_emotion_scores.py</code>. 
+
+
+## Generating the outputs of the masked language models
+*All of the generated files have to be put in the <code>mlm_output/</code> folder, sometimes this has to be done manually, so it is best to check where the function stores them.*
+
+At the beginning of <code>probe_mlm.py</code> and <code>compute_emotion_scores.py</code> add any target dictionaries you have created for any new language, eg: <code>from utils.target_dicts_fr import fr_target_dict</code> for French.\
+
+1. Run <code>get_pred_completion(dataset, model_name, save_name)</code> from the <code>probe_mlm.py</code> file. The dataset should be inputed as a string, eg: <code>'data_collection/stereo_dataset/adjective_data_fr.csv'</code>, the model name should be one of the following: <code>'bert-base-multilingual-uncased', 'xlm-roberta-base', 'xlm-roberta-large'</code>.
 
 ## Citation
 ```bibtex

@@ -1,17 +1,14 @@
 from transformers import AutoModelForMaskedLM, AutoTokenizer, pipeline
 import torch
 import pandas as pd 
-import numpy as np 
-import spacy 
+import numpy as np
 import json
-from itertools import groupby
 from collections import defaultdict
 from utils.target_dicts import eng_target_dict
 from utils.target_dicts_fr import fr_target_dict
 from utils.target_dicts_nl import nl_target_dict
 from utils.target_dicts_tr import tr_target_dict
 from utils.utils import plot_and_save_fig, get_target_category
-import os.path
 from os import path
 
 def get_topk_mlm_output(dicti, model_name, templates, country_templates, diri):
@@ -136,7 +133,7 @@ def compute_emotion_scores(model_name, cat_of_interest,  savedir, name, language
 
         a_file.close()
 
-    #plot_and_save_fig(total, targets, model_name, savedir, cat_of_interest, name)
+    plot_and_save_fig(total, targets, model_name, savedir, cat_of_interest, name)
 
     return np.array(total), targets
 
