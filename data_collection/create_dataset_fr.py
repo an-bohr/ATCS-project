@@ -1,6 +1,6 @@
 '''
-This file is used to create a dataset containing stereotypical autocomplete suggestions from three search engines:
-Google, Yahoo and DuckDuckGo. The publicly available API's are used for the resepective search engines to collect the data.
+This file is used to create a dataset containing stereotypical autocomplete suggestions from four search engines:
+Google, Yahoo, DuckDuckGo and Bing. The publicly available API's are used for the resepective search engines to collect the data.
 '''
 
 # Import packages
@@ -9,7 +9,6 @@ import json
 import logging
 import requests
 import argparse
-import numpy as np
 import pandas as pd
 from fake_useragent import UserAgent
 import re
@@ -144,9 +143,9 @@ def extract_json_from_response(response_text):
 
 def bing(keywords, query, temp, group, cat):
     '''
-    Code for querying autocomplete suggestion by scraping Bing's autocomplete.
+    Code for querying autocomplete suggestion using Bing's API.
     '''
-    url = f'https://api.bing.com/qsonhs.aspx?type=cb&q={keywords}&mkt=fr-FR'
+    url = 'https://api.bing.com/qsonhs.aspx?type=cb&q=' + keywords + "&mkt=fr-FR"
     ua = UserAgent()
     headers = {"User-Agent": ua.chrome}
     
@@ -210,18 +209,16 @@ def check_query(word_list, pred, group):
 
 def main():
 	'''
-	Retrieve data from all three search engines into a csv file.
+	Retrieve data from all four search engines into a csv file.
 	'''
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--save_path", default="stereo_dataset/merged_data_fr+bing.csv", type=str, help="Path to save dataset")
 	args = parser.parse_args()
-
-	# logging.basicConfig(level=logging.INFO)
  
-	# data_collection(fr_target_dict, templates, country_templates, google, savefile ='stereo_dataset/google_data_fr.csv')
-	# data_collection(fr_target_dict, templates, country_templates, yahoo, savefile ='stereo_dataset/yahoo_data_fr.csv')
-	# data_collection(fr_target_dict, templates, country_templates, duckduckgo, savefile ='stereo_dataset/duckduckgo_data_fr.csv')
-	# data_collection(fr_target_dict, templates, country_templates, bing, savefile ='stereo_dataset/bing_data_fr.csv')
+	data_collection(fr_target_dict, templates, country_templates, google, savefile ='stereo_dataset/google_data_fr.csv')
+	data_collection(fr_target_dict, templates, country_templates, yahoo, savefile ='stereo_dataset/yahoo_data_fr.csv')
+	data_collection(fr_target_dict, templates, country_templates, duckduckgo, savefile ='stereo_dataset/duckduckgo_data_fr.csv')
+	data_collection(fr_target_dict, templates, country_templates, bing, savefile ='stereo_dataset/bing_data_fr.csv')
 	merge_data('google', 'yahoo', 'duckduckgo', 'bing', args.save_path)
 
 

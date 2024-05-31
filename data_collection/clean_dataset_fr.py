@@ -1,7 +1,7 @@
 '''
-This code is used to aggregate samples that are identical for multiple search engines,
-and to clean up the duplicate predictions from the same search engines. Note that,
-after running this code, further manual cleaning was performed. 
+This code is used to aggregate samples that are identical for multiple search engines, 
+to clean up the duplicate predictions from the same search engines, and filter out predictions
+that do not have an adjective.
 '''
 import argparse
 import pandas as pd
@@ -45,26 +45,10 @@ def filter_adjectives(dataframe, savefile):
     
     df = df[df['completion'].apply(is_adjective)]
     df.to_csv(savefile, index=False, encoding='utf-8', sep='\t')
-    
-# def print_pos_tags(file_path):
-#     # Load the French language model
-#     nlp = spacy.load('fr_core_news_lg')
-    
-#     # Load the dataset
-#     df = pd.read_csv(file_path, encoding='utf-8', sep='\t')
-
-#     # Select the first 100 words from the 'completion' column
-#     words = df['completion'].str.strip().head(100)
-
-#     # Process each word with spaCy to get POS tags
-#     for word in words:
-#         doc = nlp(word)
-#         for token in doc:
-#             print(f"{token.text}: {token.pos_}")
-    
+        
 def main():
     '''
-    Remove duplicates from a csv file.
+    Remove duplicates, multiple word answers and only keep adjectives from a csv file.
     '''
     parser = argparse.ArgumentParser()
 
@@ -78,7 +62,6 @@ def main():
     filter_duplicates(args.file_path, args.save_no_duplicates)
     filter_multiple_word_answers(args.save_no_duplicates, args.save_single_word_path)
     filter_adjectives(args.save_single_word_path, args.save_adjective_path)
-    # print_pos_tags(args.save_single_word_path)
 
 
 if __name__ == '__main__':

@@ -213,14 +213,14 @@ def main():
 	Retrieve data from all three search engines into a csv file.
 	'''
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--save_path", default="stereo_dataset/merged_data_fr+bing.csv", type=str, help="Path to save dataset")
+	parser.add_argument("--save_path", default="stereo_dataset/merged_data_tr+bing.csv", type=str, help="Path to save dataset")
 	args = parser.parse_args()
 
-	# data_collection(tr_target_dict, templates, country_templates, google, savefile ='stereo_dataset/google_data_tr.csv')
-	# data_collection(tr_target_dict, templates, country_templates, yahoo, savefile ='stereo_dataset/yahoo_data_tr.csv')
-	# data_collection(tr_target_dict, templates, country_templates, duckduckgo, savefile ='stereo_dataset/duckduckgo_data_tr.csv')
+	data_collection(tr_target_dict, templates, country_templates, google, savefile ='stereo_dataset/google_data_tr.csv')
+	data_collection(tr_target_dict, templates, country_templates, yahoo, savefile ='stereo_dataset/yahoo_data_tr.csv')
+	data_collection(tr_target_dict, templates, country_templates, duckduckgo, savefile ='stereo_dataset/duckduckgo_data_tr.csv')
 	data_collection(tr_target_dict, templates, country_templates, bing, savefile ='stereo_dataset/bing_data_tr.csv')
-	# merge_data('google', 'yahoo', 'duckduckgo', args.save_path)
+	merge_data('google', 'yahoo', 'duckduckgo', args.save_path)
 
 
 if __name__ == '__main__':

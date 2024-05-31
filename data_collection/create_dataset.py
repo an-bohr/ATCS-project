@@ -166,7 +166,7 @@ def main():
 	Retrieve data from all three search engines into a csv file.
 	'''
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--save_path", default="stereo_dataset/merged_data.csv", type=str, help="Path to save dataset")
+	parser.add_argument("--save_path", default="stereo_dataset/stereotypes_data.csv", type=str, help="Path to save dataset")
 	args = parser.parse_args()
 
 	data_collection(eng_target_dict, templates, country_templates, google, savefile ='stereo_dataset/google_data.csv')
